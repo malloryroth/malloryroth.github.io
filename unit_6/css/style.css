@@ -1,52 +1,35 @@
 header {
-	background-color: #FFFFFF;
-	padding:20px;
+	background-color: #EBD0C6;
 }
 
 nav {
 	background-color: #EBD0C6;
 	border: 1px #85767C;
-	padding:20px;
-	margin: 20px;
+	padding:2em;
+	word-spacing: 1em;
 }
 
-aside {
-	background-color: #FFFFFF;
-	padding:20px;
-}
-
-article {
-	background-color: #FFFFFF;
-	padding:20px;
-}
 
 footer {
 	background-color: #FFFFFF;
 	border: 1px #85767C;
-	padding:20px;
+	padding:2em;
+	max-width: 30%;
 }
 
-div {
-	background-color: #FFFFFF;
-	padding:20px;
-}
-
-section {
-	background-color: #FFFFFF;
-	padding:20px;
-}
-
-#slogan {
-	color:#85767C;
-	font-family: Georgia, serif;
-	font-size: 16px;
-	text-align: center;
-}
 
 h1 {
 	color: #85767C;
 	font-family: Inter;
-	font-size: 36px;
+	font-size: 2.1em;
+	font-weight: 800;
+	text-align: center;
+}
+
+h2 {
+	color: #85767C;
+	font-family: Inter;
+	font-size: 2em;
 	font-weight: 800;
 	text-align: center;
 }
@@ -54,45 +37,50 @@ h1 {
 h3 {
 	color: #85767C;
 	font-family: Inter;
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 h4 {
 	color: #85767C;
 	font-family: Inter;
-	font-size: 18px;
+	font-size: 1.2em;
 }
 
 img {
-
-	width: 300px;
+	width: 90%;
 
 }
 
 p {
 	color: #333333;
 	font-family: Georgia, serif;
-	font-size: 16px;
+	font-size: 1em;
 }
 
-#two_column {
+#recipe-roundup {
     background-color: #FFFFFF;
-    padding: 20px;
-}
-
-#left {
-    background-color: #FFFFFF;
-    padding: 20px;
+    padding: 2em;
     float: left;
-    width: 62%;
+	width: 60%;
+
 }
 
-#right {
+#newsletter {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 2em;
     float: right;
-    width: 30%;
+	width: 30%;
+
 }
+
+
+.recipe-post {
+	background-color: #FFFFFF;
+	float: left;
+	width: 33%;
+}
+
+
 
 .clearfix:after {
     visibility: hidden;
@@ -102,3 +90,10 @@ p {
     clear: both;
     height: 0;
 }
+
+#main-section {
+	background-color: #FFFFFF;
+	float: left;
+	width:100%;
+}
+
